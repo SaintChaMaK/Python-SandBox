@@ -1,5 +1,5 @@
 #import sys
-#print(sys.version) # prints out detailed version of python instelled
+#print(sys.version) # prints out detailed version of python installed
 
 #Are containers for storing data values.
 """
@@ -108,7 +108,7 @@ a variable with the same name inside a function, this variable will be local, an
 """
 def message():
     second_word = "Fantastic" #local variable
-    #print(f"Python is, {second_word}")
+    print(f"Python is, {second_word}")
 message()
 
 #print(f"Python is, {second_word}")

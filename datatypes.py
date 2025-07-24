@@ -22,8 +22,8 @@ None Data Type:	NoneType
 """
 
 ##  Text/ string(str) Data Type:
-name = "Chamak"
-second_name = 'T*X'
+name = "Saint"
+second_name = 'Chamak'
 word = """ How can you fly to the moon"""
 l_word = '''Space ship'''
 #print(f"{name} {second_name},{word} i'll use {l_word}")
