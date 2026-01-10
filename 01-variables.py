@@ -1,10 +1,14 @@
 #import sys
 #print(sys.version) # prints out detailed version of python installed
 
-#Are containers for storing data values.
+""" 
+Variables are containers for a storing data value, 
+            it can store data of different types, and different types can do different things.
 """
-         Do not need to be declared by any particular type,
-                                                        since type can be changed even after setting it.
+
+"""
+         Do not need to be declared by any particular type,since type can be changed even after setting it.
+         
     01. The name of the variable must be composed of upper-case or lower-case letters, digits, and the character _ (underscore)
             They can't have spaces (E.x, test var is not allowed)
                                     (E.x, test_var! is not allowed)
@@ -32,7 +36,7 @@ You can always take a look at the value assigned to the variable by using print(
 numb = 2    #int
 name = "Saint"  #string
 decimal = 3.5   #float
-bool = True     #boolean can True or False depending on the condition
+bool = True     #boolean can be True or False depending on the condition
 
 #print(numb)
 #print(name)
