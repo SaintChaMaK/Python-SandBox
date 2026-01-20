@@ -7,7 +7,7 @@ Variables are containers for a storing data value,
 """
 
 """
-         Do not need to be declared by any particular type,since type can be changed even after setting it.
+         Do not need to be declared by any particular type, since type can be changed even after setting it.
          
     01. The name of the variable must be composed of upper-case or lower-case letters, digits, and the character _ (underscore)
             They can't have spaces (E.x, test var is not allowed)
@@ -30,7 +30,9 @@ Variables are containers for a storing data value,
                   'return', 'try', 'while', 'with', 'yield']
 Then, to create the variable, you need to use = to assign the value that you want it to have.
 
-You can always take a look at the value assigned to the variable by using print() and putting the name of the variable in parentheses."""
+You can always take a look at the value assigned to the variable by using print() and putting the name of the variable in parentheses.
+
+"""
 
 #creating a variable
 numb = 2    #int
@@ -42,6 +44,12 @@ bool = True     #boolean can be True or False depending on the condition
 #print(name)
 #print(decimal)
 #print(bool)
+
+###Bolean Examples
+#A simple print out True and False bolean
+#print(10 > 5)
+#print(5 > 10)
+
 
 
 
@@ -88,7 +96,9 @@ total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_
 
 #global variables 
 """
-Any variable created outside a function can be accessed within any function and so they have global scope."""
+Any variable created outside a function can be accessed within any function and so they have global scope.
+
+"""
 
 x = 5   #global variable
 y = 10  #global variable

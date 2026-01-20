@@ -181,4 +181,20 @@ print(c)"""
 #print(10 > 5)
 #print(5 > 10)
 
-print(help(str))
+# help can Used to print available method regarding a particular built-in function
+#print(help(str))
+
+
+
+#LAB Variable manipulation
+#kilometers = 12.25
+#miles = 7.38
+
+#miles_to_kilometers = 10.23445
+#kilometers_to_miles = 20.45543345
+
+#print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+#print(f"{miles} miles is {round(miles_to_kilometers,2)} kilometers")
+
+#print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
+#print(f"{kilometers} kilometers is {round(kilometers_to_miles,3)} miles")
