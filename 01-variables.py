@@ -217,7 +217,7 @@ sheep += 2
 #rem %= 10   #simplified
 
 #j = j - (i + var + rem) #normally
-#j -= (i + var + rem)
+#j -= (i + var + rem) #Simplified
 
 #print(j)
 
@@ -235,6 +235,7 @@ kilometers_to_miles = 20.45543345
 
 #print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
 #print(f"{miles} miles is {round(miles_to_kilometers,2)} kilometers")
+
 #print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 #print(f"{kilometers} kilometers is {round(kilometers_to_miles,3)} miles")
 

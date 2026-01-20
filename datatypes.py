@@ -1,23 +1,29 @@
 """
-Variables can store data of different types, and different types can do different things.
-
 Python has the following data types built-in by default, in these categories:
 
-Text/ string Data Type:	str
-Numeric Data Types:	int, 
+01. Text/ string Data Type:	str
+
+02. Numeric Data Types:	int, 
                     float, 
                     complex.
-Sequence Data Types:	list, 
+
+03. Sequence Data Types:	list, 
                         tuple, 
                         range.
-Mapping Data Type:	dict
-Set Data Types:	set, 
-                frozenset.
-Boolean Data Type:	bool
-Binary Data Types:	bytes,
-                     bytearray, 
-                     memoryview.
-None Data Type:	NoneType
+
+04. Mapping Data Type:	dict
+
+05. Set Data Types:	set, 
+                    frozenset.
+
+
+06. Boolean Data Type:	bool
+
+07. Binary Data Types:	bytes,
+                        bytearray, 
+                        memoryview.
+
+08. None Data Type:	NoneType
 
 """
 
