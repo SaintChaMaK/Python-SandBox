@@ -49,7 +49,7 @@ known as run-time errors because they only occur at the time that
 a program is run.
 
 """
-print(Hello, World)
+#print(Hello, World)
 
 """
 Now both quotation marks from the phrase "Hello, world" have been
