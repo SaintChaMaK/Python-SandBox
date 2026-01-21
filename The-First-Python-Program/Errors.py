@@ -74,3 +74,7 @@ Since names Hello and world haven’t been defined anywhere, the
 program crashes.
 
 """
+
+#Other Errors Examples
+#print(phrase)
+#phrase = "Hello, World"

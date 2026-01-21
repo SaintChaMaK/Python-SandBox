@@ -1,10 +1,43 @@
-#import sys
-#print(sys.version) # prints out detailed version of python installed
+
+"""
+variables are names that can be assigned a value and used
+to reference that value throughout your code. Variables are fundamental to programming for two reasons:
+1. Variables keep values accessible: For example, the result of
+some time-consuming operation can be assigned to a variable so
+that the operation does not need to be performed each time you
+need to use the result.
+
+2. Variables give values context: The number 28 could mean lots
+of different things, such as the number of students in a class, or the
+number of times a user has accessed a website, and so on. Naming
+the value 28 something like num_students makes the meaning of the
+value clear.
+
+
+"""
 
 """ 
 Variables are containers for a storing data value, 
             it can store data of different types, and different types can do different things.
+
 """
+
+"""
+The Assignment Operator
+Values are assigned to a variable using a special symbol = called the
+assignment operator. An operator is a symbol, like = or +, that
+performs some operation on one or more values.
+
+Although = looks like the equals sign from mathematics, it has
+a different meaning in Python. Distinguishing the = operator
+from the equals sign is important, and can be a source of frustration for beginner programmers.
+Just remember, whenever you see the = operator, whatever is to
+the right of it is being assigned to a variable on the left.
+
+"""
+
+
+# Rules for a valid Variable names
 
 """
          Do not need to be declared by any particular type, since type can be changed even after setting it.
@@ -34,22 +67,35 @@ You can always take a look at the value assigned to the variable by using print(
 
 """
 
-#creating a variable
-numb = 2    #int
+#Examples of Variables
+number = 2    #int
 name = "Saint"  #string
 decimal = 3.5   #float
 bool = True     #boolean can be True or False depending on the condition
 
-#print(numb)
+#print(number)
 #print(name)
 #print(decimal)
 #print(bool)
 
-###Bolean Examples
-#A simple print out True and False bolean
-#print(10 > 5)
-#print(5 > 10)
 
+
+
+
+# Implementation of Rules for a valid Variable names
+
+"""
+Variable names are case-sensitive, so a variable named phrase is distinct from a variable named Phrase (note the capital P). For instance,
+the following code produces a NameError:
+
+So is adviced to double-check that every character in your code—including
+spaces—exactly matches. Computers can’t use common
+sense to interpret what you meant to say, so being almost correct
+won’t get a computer to do the right thing!
+
+"""
+phrase = "Hello, World"
+print(Phrase)
 
 
 
