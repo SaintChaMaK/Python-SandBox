@@ -2,6 +2,8 @@
 """
 variables are names that can be assigned a value and used
 to reference that value throughout your code. Variables are fundamental to programming for two reasons:
+
+
 1. Variables keep values accessible: For example, the result of
 some time-consuming operation can be assigned to a variable so
 that the operation does not need to be performed each time you
@@ -94,10 +96,96 @@ sense to interpret what you meant to say, so being almost correct
 won’t get a computer to do the right thing!
 
 """
-phrase = "Hello, World"
-print(Phrase)
+#phrase = "Hello, World"
+#print(Phrase)
 
 
+
+
+
+
+"""
+Variable names can be as long or as short as you like, but there are a
+couple of rules that you must follow. Variable names can only contain
+uppercase and lowercase letters (A–Z, a–z), digits (0–9), and underscores (_). However, variable names cannot begin with a digit.
+For example, phrase, string1, _a1p4a, and list_of_names are all valid variable names, but 9lives is not.
+
+Python variable names can contain many different valid Unicode characters. 
+Unicode is a standard for digitally representing text used in most of the world’s writing systems.
+That means variable names can contain letters from nonEnglish alphabets, such as decorated letters like é and ü, and
+even Chinese, Japanese, and Arabic symbols.
+However, not every system can display decorated characters, so
+it is a good idea to avoid them if your code is going to be shared
+with people in many different regions.
+
+"""
+#test var = 7 #is not a valid variable
+#test_var! = 7 #is a valid variable
+
+
+
+
+
+"""
+Just because a variable name is valid doesn’t necessarily mean that it is a good name. 
+Choosing a good name for a variable can be surprisingly difficult. However, there are some guidelines that you can follow
+to help you choose better names.
+
+Descriptive Names Are Better Than Short Names
+Descriptive variable names are essential, especially for complex programs. Often, descriptive names require using multiple words. 
+Don’t be afraid to use long variable names.
+In the following example, the value 3600 is assigned to the variable s:
+
+"""
+S = 3600 # Totally ambiguous and less descriptive
+
+Seconds = 3600 # A bit informative but does not convey the full meaning of the code
+
+SecondsPerHour = 3600 # Much more informative about the purpose of the variable
+
+
+
+
+
+"""
+Python Variable Naming Conventions
+In many programming languages, it is common to write variable
+names in camelCase like numStudents and listOfNames. The first letter
+of every word, except the first, is capitalized, and all other letters are
+lowercase. The juxtaposition of lower-case and upper-case letters
+look like humps on a camel.
+
+In Python, however, it is more common to write variable names in
+snake case like num_students and list_of_names. Every letter is lowercase, and each word is separated by an underscore.
+While there is no hard-and-fast rule mandating that you write your
+variable names in snake case, the practice is codified in a document
+called PEP 8, which is widely regarded as the official style guide for
+writing Python.
+
+Following the standards outlined in PEP 8 ensures that your Python
+code is readable by a large number of Python programmers. This
+makes sharing and collaborating on code easier for everyone involved.
+"""
+numStudents = 10 #juxtaposition
+listOfNames = "" #juxtaposition
+
+
+num_students = 10 #PEP 8
+list_of_names = "" #PEP 8
+
+
+
+
+
+
+"""
+Inspect Values in the Interactive Window
+You have already seen how to use print() to display a string that has
+been assigned to a variable. There is another way to display the value
+of a variable when you are working in the Python shell.
+"""
+FirstPythonScript = "Hello, World"
+#>> FirstPythonScript # Writing this on the python shell will display (inspect) the value wihin the variable
 
 
 #assingment
