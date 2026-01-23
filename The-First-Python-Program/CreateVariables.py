@@ -187,6 +187,61 @@ of a variable when you are working in the Python shell.
 FirstPythonScript = "Hello, World"
 #>> FirstPythonScript # Writing this on the python shell will display (inspect) the value wihin the variable
 
+"""
+ The output displayed is a useful representation of the value assigned to the variable.
+In this case, phrase is assigned the string "Hello, world", so the output
+is surrounded with single quotes to indicate that phrase is a string.
+
+On the other hand, when you print() a variable, Python displays a
+more human-readable representation of the variable’s value. 
+For strings, both ways of being displayed are human-readable, but this is
+not the case for every type of value.
+Sometimes, both printing and inspecting a variable produces the
+same output:
+
+"""
+x = 72
+#>>x # Writing this on the python shell will display (inspect) the value wihin the variable
+#print(x) # Running this will display the same result
+
+"""
+Both the output of print(x) and inspecting x is not surrounded with quotes, because the value (72) is a number and
+not a string.Inspecting a variable, instead of printing it, is useful for a couple of
+reasons. 
+
+You can use it to display the value of a variable without typing
+print(). More importantly, though, inspecting a variable usually gives
+you more useful information than print() does.
+Suppose you have two variables: x = 72 and y = "72". In this case, print(x)
+and print(y) both display the same thing. However, inspecting x and
+y shows the difference between the each variable’s value:
+
+"""
+x = 72
+y = "72"
+
+#print(x)
+#print(y)
+#>>x # Writing this on the python shell will display (inspect) the value wihin the variable
+#>>y # Writing this on the python shell will display (inspect) the value wihin the variable
+
+
+
+"""
+The key takeaway here is that print() displays a readable representation of a variable’s value, 
+while inspection provides additional information about the type of the value.
+You can inspect more than just variables in the Python shell. Check
+out what happens when you type print and hit Enter:
+
+Keep in mind that you can only inspect variables in a Python shell
+
+"""
+
+
+
+
+
+
 
 
 
