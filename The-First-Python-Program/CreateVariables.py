@@ -188,71 +188,42 @@ FirstPythonScript = "Hello, World"
 #>> FirstPythonScript # Writing this on the python shell will display (inspect) the value wihin the variable
 
 
-#assingment
-test_var = 4 + 5
-#print(test_var)
-
-#manipulating a variable
-New_var = 3
-#print(New_var)
-
-New_var = 700   #manipulation
-#print(New_var)
-
-#print(test_var)
-#print(New_var)
-
-
-New_var = New_var ** 2
-#print(New_var)
 
 
 
+####                Global Variables and Local Variables                ####
 
-#Using multiple variables
-num_years = 4
-days_per_year = 365
-hours_per_day = 24
-mins_per_hour = 60
-secs_per_min = 60
-
-days_per_year = 365.25
-#Calculating the number of seconds for 4 years
-total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_years
-#print(total_secs)
-
-#print(total_secs)
-
-
-
-
-
-
-#global variables 
+### Global variables
 """
-Any variable created outside a function can be accessed within any function and so they have global scope.
-
+Global variables: Any variable created outside a function can be accessed within any function and so they have global scope.
+To learn more about function information can be found on a specific function section.
 """
+#Example of a global variable
+NumberOne = 5   #global variable
+NumberTwo = 10  #global variable
 
-x = 5   #global variable
-y = 10  #global variable
-def sum():
-    sum = x + y
+def sum(): #function to print sum of Two numbers
+    sum = NumberOne + NumberTwo
     return sum
 #print(sum())
 
-#another example
+#### End of Block of Code
+
+
+### another example of a global variable
 second_word = "Awesome" #global variable
 
-"""
-def message():
+def message(): #function to print a message
     print(f"Python is, {second_word}")
 message()
-"""
 
-# local variable 
+#### End of a Block of Code
+
+
+
+### local variable 
 """
-a variable with the same name inside a function, this variable will be local, and can only be used inside the function.
+Local variable is a variable inside a function, this variable will be local, and can only be used inside the function.
 """
 def message():
     second_word = "Fantastic" #local variable
@@ -261,11 +232,154 @@ message()
 
 #print(f"Python is, {second_word}")
 
+#### End of Block of Code
 
 
 
 
-#Solving simple mathematical problems
+### Variables Shortcut operators
+"""
+    variable = variable op expression
+
+    ...then it can be simplified and shown as follows:
+
+    variable op= expression
+        Example:
+        x = x * 2
+        sheep = sheep + 1
+
+    Python offers you a shortened way of writing operations like these, which can be coded as:
+        x *= 2
+        sheep += 1
+
+    In which the operator should be close to the equal sign
+
+"""
+### Example 01
+x = 2
+x *= 2
+#print(x)
+#### End of a Code Block
+
+
+
+### Example 02
+sheep = 5
+sheep += 2
+#print(sheep)
+
+#### End of a Code Block
+
+
+
+### Example 03
+i = float(input("Enter value of i:"))
+j = float(input("Enter value of j:"))
+i = i + 2 * j   #normally
+i += 2 * j  #Simplified
+#print(i)
+
+#### End of a Code Block
+
+
+
+### Example 04
+var = float(input("Enter VAR:"))
+var = var/2 #normally
+var /= 2    #simplified
+#print(var)
+
+#### End of a Code Block
+
+
+
+### Example 05
+rem = float(input("Enter REM:"))
+rem = rem % 10  #normally
+rem %= 10   #simplified
+
+#print(rem)
+
+#### End of a Code Block
+
+
+
+### Example 06
+j = j - (i + var + rem) #normally
+j -= (i + var + rem) #Simplified
+
+#print(j)
+
+#### End of a Code Block
+
+
+
+
+
+### Example 07
+a = 6
+b = 3
+a /= 2 * b # a = a / 2 * b
+#print(a)
+"""
+The answer is 1.0, atleast for what i know is because
+of the fact that The result produced by the division operator is always a float
+
+"""
+
+#### End of a Code Block
+
+
+
+
+
+###                 Different examples on how to use a variable             ###
+
+# Variable manipulations
+test_var = 4 + 5
+#print(test_var)
+
+New_var = 3 # Variable manipulation
+#print(New_var)
+
+New_var = 700   # Variable manipulation
+#print(New_var)
+
+#print(test_var)
+#print(New_var)
+
+New_var = New_var ** 2
+#print(New_var)
+
+#### End of the code block
+
+
+
+
+
+### Using multiple variables to calculate the number of seconds in 4 years
+num_years = 4
+days_per_year = 365
+hours_per_day = 24
+mins_per_hour = 60
+secs_per_min = 60
+
+days_per_year = 365.25 # Variable manipulation
+
+#Calculating the number of seconds in 4 years
+total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_years
+#print(total_secs)
+
+#### End of the code block
+
+
+
+
+
+
+
+
+### Solving simple mathematical problems
 """
         pythagorean theorem
         √ (x)  = x(½) == x**0.5
@@ -273,89 +387,44 @@ message()
        
 """
 #simple pythagorean theorem calculator
-#a = float(input("Enter value of a:"))
-#b = float(input("Enter value of b:"))
-#c = ((a ** 2) + (b ** 2)) ** 0.5
+a = float(input("Enter value of a:"))
+b = float(input("Enter value of b:"))
+c = ((a ** 2) + (b ** 2)) ** 0.5
 #print("c =", c)
 
+#### End of code block
 
 
 
 
 
-#some calc
+
+### some calculations
 john = 3
 mary = 5
 adam = 6
 
 #print(john, mary, adam, sep = ",")
 
-total_apples = john + mary + adam
-#print(total_apples)
+Total_apples = john + mary + adam
+#print(Total_apples)
 
-total_apples = john - mary - adam
-#print(total_apples)
+TotalSubstractedApples = john - mary - adam
+#print(TotalSubstractedApples)
 
-total_apples = john * mary * adam
-#print(total_apples)
+TotalMultipliedApples = john * mary * adam
+#print(TotalMultipliedApples)
 
-total_apples = john / mary / adam
-#print(total_apples)
+TotalDividedApples = john / mary / adam
+#print(TotalDividedApples)
 
-total_apples = john // mary // adam
-#print(total_apples)
+TotalIntegerDividedApples = john // mary // adam
+#print(TotalIntergerDividedApples)
 
-total_apples = john % mary % adam
-#print(total_apples)
+TotalModuloApples = john % mary % adam
+#print(TotalModuloApples)
 
-
-
-
-
-
-#Shortcut operators
-"""
-        variable = variable op expression
-
-        ...then it can be simplified and shown as follows:
-
-        variable op= expression
-        Example:
-        x = x * 2
-        sheep = sheep + 1
-    Python offers you a shortened way of writing operations like these, which can be coded as:
-        x *= 2
-        sheep += 1
-
-    In which the operator should be close to the equal sign
-"""
-x = 2
-x *= 2
-#print(x)
-
-sheep = 5
-sheep += 2
-#print(sheep)
-
-#i = float(input("Enter value of i:"))
-#j = float(input("Enter value of j:"))
-#i = i + 2 * j   #normally
-#i += 2 * j  #Simplified
-
-#var = float(input("Enter VAR:"))
-#var = var/2 #normally
-#var /= 2    #simplified
-
-#rem = float(input("Enter REM:"))
-#rem = rem % 10  #normally
-#rem %= 10   #simplified
-
-#j = j - (i + var + rem) #normally
-#j -= (i + var + rem) #Simplified
-
-#print(j)
-
-
+#### End of a Code Block
 
 
 
@@ -408,14 +477,4 @@ kilometers_to_miles = 20.45543345
             print(var)
 
 
-"""
-
-
-a = 6
-b = 3
-a /= 2 * b # a = a / 2 * b
-#print(a)
-"""
-the answer is 1.0, atleast for what i know is because
-     of the fact that The result produced by the division operator is always a float
 """
