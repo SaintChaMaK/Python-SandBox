@@ -21,7 +21,13 @@ They help to document what’s supposed to be happening.
 
 """
 
+"""
+How to Write a Comment
+The most common way to write a comment is to begin a new line in
+your code with the # character. When your code is run, any lines starting with # are ignored. Comments that start on a new line are called
+block comments.
 
+"""
 
 ### Single comment are written as this 
 # -- this is a single comment
@@ -30,17 +36,17 @@ They help to document what’s supposed to be happening.
 
 
 
-#Multiline comment
-#this is 
-#a multline
-#comment
+### Multiline comment
+# this is 
+# a multline
+# comment
 
 
 
 
 
-#Since python ignorea strings which are not assigned to variable you can use triple quotes to assign multiline comment
-
+# Since python ignorea strings which are not assigned to variable you can use triple quotes to assign multiline comment
+# This is not recommanded by PEP 8
 """
 if 5 > 2:
 print("its true") #This is the wrong way to do it
@@ -49,7 +55,24 @@ print("its true") #This is the wrong way to do it
 """ is good to write code with a proper indentation as wrong indentation can result into an error"""
 
 if 5 > 2:
-    print("its true")#this is the right way to do it
+    print("its true")#  this is the right way to do it
+
+
+
+
+
+
+"""
+Conventions and Pet Peeves
+According to PEP 8, comments should always be written in complete
+sentences with a single space between the # and the first word of the
+comment:
+
+"""
+# This comment is formatted to PEP 8.
+#don't do this
+
+
 
 
 
@@ -59,9 +82,9 @@ if 5 > 2:
 
 # This program evaluates the hypotenuse c.
 # a and b are the lengths of the legs.
-#a = 3.0
-#b = 4.0
-#c = (a ** 2 + b ** 2) ** 0.5  # We use ** instead of a square root.
+# a = 3.0
+# b = 4.0
+# c = (a ** 2 + b ** 2) ** 0.5  # We use ** instead of a square root.
 #print("c =", c)
 
 #### End of a Code Block
