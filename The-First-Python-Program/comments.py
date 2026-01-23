@@ -11,25 +11,43 @@
                             That is good for self commmenting.
 """
 
+"""
+Programmers often read code they wrote several months ago and wonder “What the heck does this do?” Even with descriptive variable
+names, it can be difficult to remember why you wrote something the
+way you did when you haven’t looked at it for a long time.
+To help avoid this problem, you can leave comments in your code.
+Comments are lines of text that don’t affect the way the script runs.
+They help to document what’s supposed to be happening.
+
+"""
 
 
 
-
-#Single comment are written as this 
+### Single comment are written as this 
 # -- this is a single comment
+
+
+
+
 
 #Multiline comment
 #this is 
 #a multline
 #comment
 
+
+
+
+
 #Since python ignorea strings which are not assigned to variable you can use triple quotes to assign multiline comment
+
 """
 if 5 > 2:
 print("its true") #This is the wrong way to do it
 """
 
 """ is good to write code with a proper indentation as wrong indentation can result into an error"""
+
 if 5 > 2:
     print("its true")#this is the right way to do it
 
@@ -46,11 +64,27 @@ if 5 > 2:
 #c = (a ** 2 + b ** 2) ** 0.5  # We use ** instead of a square root.
 #print("c =", c)
 
+#### End of a Code Block
+
+
+
+
 # This is a test program.
 x = 1
 y = 2
 #y = y + x # uncomment this one to see the difference
 #print(x + y)
+
+#### End of a Code Block
+
+
+
+
+
+
+
+
+####                SUMMARY                 ####
 
 """
         01. Comments can be used to leave additional information in code.
