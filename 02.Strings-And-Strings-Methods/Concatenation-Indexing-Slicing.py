@@ -10,7 +10,7 @@ In this section, you’ll learn about three basic string operations:
 
 
 
-### Strings Concatenation
+####                Strings Concatenation               ####
 
 """
 Two strings can be combined, or concatenated, using the + operator:
@@ -46,7 +46,7 @@ FullName = FirstName + " " + LastName
 
 
 
-### String Indexing
+####             String Indexing             ####
 """
 Each character in a string has a numbered position called an index.
 You can access the character at the Nth position by putting the number N 
@@ -150,3 +150,15 @@ LastCharactersFormat2 = UserInput[-1]
 #print(FinalIndex)
 #print(LastCharactersFormat1)
 #print(LastCharactersFormat2)
+
+"""
+Getting the final character with the index -1 takes less typing and
+doesn’t require an intermediate step to calculate the final index:
+"""
+
+
+
+
+
+
+####                String Slicing              ####
