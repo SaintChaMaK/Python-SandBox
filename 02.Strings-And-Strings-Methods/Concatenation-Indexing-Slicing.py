@@ -144,17 +144,12 @@ One way to get the last character of a string is to calculate the final
 index using len():
 """
 #UserInput = input("Enter Your Names:")
-FinalIndex = len(UserInput) - 1
-LastCharactersFormat1 = UserInput[FinalIndex]
-LastCharactersFormat2 = UserInput[-1]
+#FinalIndex = len(UserInput) - 1
+#LastCharactersFormat1 = UserInput[FinalIndex]
+#LastCharactersFormat2 = UserInput[-1]
 #print(FinalIndex)
 #print(LastCharactersFormat1)
 #print(LastCharactersFormat2)
-
-"""
-Getting the final character with the index -1 takes less typing and
-doesn’t require an intermediate step to calculate the final index:
-"""
 
 
 
@@ -162,3 +157,62 @@ doesn’t require an intermediate step to calculate the final index:
 
 
 ####                String Slicing              ####
+"""
+Suppose you need the string containing just the first three letters of
+the string "Apple Pie". You could access each character by index and
+concatenate them, like this:
+"""
+FirstThreeLetters = Flavour[0] + Flavour[1] + Flavour[2]
+#print(FirstThreeLetters)
+
+"""
+Getting the final character with the index -1 takes less typing and
+doesn’t require an intermediate step to calculate the final index:
+"""
+
+"""
+If you need more than just the first few letters of a string, getting each
+character individually and concatenating them together is clumsy
+and long-winded. Fortunately, Python provides a way to do this with
+much less typing.
+
+You can extract a portion of a string, called a substring, by inserting a
+colon between two index numbers inside of square brackets, like this:
+"""
+SubString = Flavour[0:3]
+#print(SubString)
+
+
+
+"""
+Flavor[0:3] returns the first three characters of the string assigned to
+Flavor, starting with the character with index 0 and going up to, but not
+including, the character with index 3. The [0:3] part of Flavor[0:3] is
+called a slice. In this case, it returns a slice of "Apple Pie". Yum!
+
+String slices can be confusing because the substring returned by
+the slice includes the character whose index is the first number, but
+doesn’t include the character whose index is the second number.
+
+To remember how slicing works, you can think of a string as a 
+sequence of square slots. The left and right boundary of each slot is
+numbered from zero up to the length of the string, and each slot is
+filled with a character in the string.
+Here’s what this looks like for the string "apple pie":
+| a | p | p | l | e | | p | i | e |
+  0   1   2   3   4  5  6   7   8   9
+
+The slice [x:y] returns the substring between the boundaries x and y.
+So, for "Apple Pie", the slice [0:3] returns the string "App", and the slice
+[3:9] returns the string "le Pie".
+"""
+#print(Flavour[3:9])
+
+"""
+If you omit the first index in a slice, Python assumes you want to start
+at index 0:
+"""
+
+print(Flavour[:3])
+print(Flavour[:5])
+print(Flavour[:9])
