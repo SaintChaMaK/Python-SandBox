@@ -18,7 +18,8 @@ interprets it as text and not something else.
 """
 
 """
-An interactive window [Interactive Development and Learning Environment](IDLE) can execute only a single line of code at a time.
+An interactive window [Interactive Development and Learning Environment](IDLE) 
+can execute only a single line of code at a time.
 This is useful for trying out small code examples and exploring the
 Python language, but it has a major limitation. Code must be entered
 in by a person one line at a time!
