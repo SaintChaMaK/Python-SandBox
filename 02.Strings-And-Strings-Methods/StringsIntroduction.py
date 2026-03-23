@@ -202,3 +202,5 @@ used to document custom functions.
 When used to document code, triple-quoted strings are called
 docstrings. 
 """
+
+#####                   End of string introduction                  #####
