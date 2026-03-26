@@ -198,3 +198,13 @@ print(c)"""
 
 #print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 #print(f"{kilometers} kilometers is {round(kilometers_to_miles,3)} miles")
+
+
+
+
+
+vulcan_logic = 'Spock said, "Live long and prosper."'
+#print(vulcan_logic)
+
+vulcan_logic = "Spock said, \"Live long and prosper.\""
+#print(vulcan_logic)
